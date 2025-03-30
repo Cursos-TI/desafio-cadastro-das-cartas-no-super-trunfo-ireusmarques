@@ -17,7 +17,7 @@ int main() {
     printf("A área da sua cidade:\n");
     scanf("%f", &area);
 
-    printf("quantos pontos turisticos tem a sua cidade?:\n");
+    printf("Quantos pontos turisticos tem a sua cidade?:\n");
     scanf("%d", &pontosturisticos);
 
     printf("A população da cidade:\n");
