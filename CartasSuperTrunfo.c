@@ -1,37 +1,38 @@
 #include <stdio.h>
 
-int main() {
-
-    int população
-    float area
-    int pontosturisticos
-    char codigocarta[10];
-    char nomecidade[10];
+int main(){
+    int populacao;
+    float area;
+    int pontosTuristicos
+    float pib;
+    char codigoCarta[10];
+    char nomeCidade[10];
 
     printf("CARTA: \n");
-    scanf("%3s", codigocarta);
+    scanf("%3s", codigoCarta);
 
-    printf("nome da sua cidade:\n");
-    scanf("%s", nomecidade);
+    printf("Nome da sua cidade:\n");
+    scanf("%s", nomeCidade);
 
     printf("A área da sua cidade:\n");
     scanf("%f", &area);
 
-    printf("Quantos pontos turisticos tem a sua cidade?:\n");
-    scanf("%d", &pontosturisticos);
+    printf("Quantos pontos turísticos tem a sua cidade?:\n");
+    scanf("%d", &pontosTuristicos);
 
     printf("A população da cidade:\n");
-    scanf("%d", &populaçao);
+    scanf("%d", &populacao);
     printf("O PIB da cidade:\n");
     scanf("%f", &pib);
 
     printf("\n---INFORMAÇÕES DA CIDADE---\n");
-    printf("codigo da sua carta:%s\n, codigocarta");
-    printf("nomeda sua cidade:%\n, nomecidade");
+    printf("Código da sua carta:%s\n, codigoCarta");
+    printf("Nomeda sua cidade:%s\n, nomeCidade");
     printf("Área:%f\n", area);
-    printf("pontos Turisticos:%d\n", pontosturiscos);
-    printf("população:%d\n", populaçao);
+    printf("Pontos Turisticos: %d\n", pontosTuristicos);
+    printf("População: %d\n", populacao);
     printf("PIB:%f\n", pib);
     
-    return 0;
+    
+
 }
